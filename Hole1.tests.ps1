@@ -1,16 +1,22 @@
-[CmdletBinding()]
+[CmdletBinding()]            
 param
 (
+    [Parameter(Position = 0)]
     [string]$UserSubmission
 )
 
-$userSubmissionOutput = . $UserSubmission
+# get installed updates from the last 30 days
+$userSubmissionOutput = Invoke-Expression $UserSubmission
 
 Describe 'Hole 1' {
-    It 'example output' {
-        $userSubmissionOutput | Should Be 'hello'
+    It 'Only updates from the last 30 days' {
+        $lastTenDays = $false
+        If (($($userSubmissionOutput | sort-object -property InstalledOn)[0].InstalledOn) -gt (Get-Date).AddDays(-30)) {
+            $lastTenDays = $true
+        }
+        $lastTenDays | Should Be $true
     }
-    It 'example type' {
-        $userSubmissionOutput | Should BeOfType [string]
+    It 'Is the right type' {
+        $userSubmissionOutput[0] | Should BeOfType [Microsoft.Management.Infrastructure.CimInstance]
     }
 }
