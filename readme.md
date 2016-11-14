@@ -1,6 +1,8 @@
 #PowerShell 10 Year Anniversary Celebration Code Golf
 This repo holds the Pester tests for the three Code Golf holes for the [PowerShell 10 Year Anniversary Celebration](https://channel9.msdn.com/Events/PowerShell-Team/PowerShell-10-Year-Anniversary).
 
+Credits: Thomas Rayner ([@MrThomasRayner](http://twitter.com/mrthomasrayner)) and Will Anderson ([@GamerLivingWill](https://twitter.com/GamerLivingWill)).
+
 ##What is code golf?
 Code golf is a "solve this scripting puzzle" competition with a twist. In addition to coming up with the PowerShell script to solve a given puzzle, you must do so in as few characters as possible. This means using aliases, exploiting strange language behaviors, and being generally tricky.
 
