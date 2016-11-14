@@ -12,11 +12,11 @@ The first golfer has code that is far more compliant with best practices, but th
 ##This Competition
 For the 10 year anniversary of PowerShell, we are putting out three holes of code golf on [code-golf.com](http://code-golf.com) which can be found here:
 
-1. Hole 1 - *link coming soon*
+1. Hole 1 - [http://www.code-golf.com/problem/view/PowerShell%2010%20Year%20Anniversary%20-%20Hole%201]
 
-2. Hole 2 - *link coming soon*
+2. Hole 2 - [http://www.code-golf.com/problem/view/PowerShell%2010%20Year%20Anniversary%20-%20Hole%202]
 
-3. Hole 3 - *link coming soon*
+3. Hole 3 - [http://www.code-golf.com/problem/view/PowerShell%2010%20Year%20Anniversary%20-%20Hole%203]
 
 Each hole has a unique challenge for golfers to attempt to accomplish in as few characters as possible. Each hole also has an associated Pester test (hosted in this GitHub repo and linked on the code-golf.com page) that the submission must pass in order for a user's submission to be considered valid.
 
